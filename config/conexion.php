@@ -7,7 +7,7 @@ protected $dbh;
             $conectar = $this->dbh = new PDO('mysql:host=localhost;dbname=andercode_soap','usuario','0x0sidewinder');
             return $conectar;
         }catch(Exception $e){
-            print "¡Error!: " . $e->getMessage() . "<br/>";
+            print " ¡Error!: " . $e->getMessage() . "<br/>";
             die();
         }
     }
