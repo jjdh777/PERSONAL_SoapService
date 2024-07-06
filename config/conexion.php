@@ -4,7 +4,7 @@ class Conectar{
 protected $dbh;
     protected function conexion(){
         try{
-            $conectar = $this->dbh = new PDO('mysql:host=localhost;dbname=andercode_soap','root','');
+            $conectar = $this->dbh = new PDO('mysql:host=localhost;dbname=andercode_soap','usuario','0x0sidewinder');
             return $conectar;
         }catch(Exception $e){
             print "¡Error!: " . $e->getMessage() . "<br/>";

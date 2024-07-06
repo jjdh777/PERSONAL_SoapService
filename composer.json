@@ -1,5 +1,5 @@
 {
     "require": {
-        "econea/nusoap": "^0.9.11"
+        "econea/nusoap": "^0.9.17"
     }
 }
